@@ -15,11 +15,11 @@ os.environ["HF_HOME"] = "/content/hf_cache"
 os.environ["TRANSFORMERS_CACHE"] = "/content/hf_cache"
 
 !python /content/drive/MyDrive/gpi_replication/create_data/create_text.py \
-    --prompt_file "/content/drive/MyDrive/gpi_replication/生成prompt/農民to公務人員_prompt" \
+    --prompt_file "/content/drive/MyDrive/gpi_replication/生成prompt/6th_to_10th" \
     --checkpoint "meta-llama/Llama-3.1-8B-Instruct" \
-    --task_type "create" \
+    --task_type "repeat" \
     --cache_dir "/content/hf_cache" \
-    --save_hidden "/content/drive/MyDrive/gpi_replication/data/hidden_states_農民to公務人員" \
-    --save_name "/content/drive/MyDrive/gpi_replication/data/generated_texts_農民to公務人員" \
+    --save_hidden "/content/drive/MyDrive/gpi_replication/data/hidden_states_全文本" \
+    --save_name "/content/drive/MyDrive/gpi_replication/data/generated_texts_全文本" \
     --max_new_tokens 500
 ```
