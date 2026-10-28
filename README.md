@@ -4,4 +4,4 @@ Due to GitHub’s file size limits, we are unable to upload the complete hidden_
 
 # Software Requirements  軟體需求
 All analyses are conducted using Python. Required user-written Python packages: TarNet
-Please download the required packages directly from the following repository: https://github.com/gpi-pack/gpi_pack
+\n Please download the required packages directly from the following repository: https://github.com/gpi-pack/gpi_pack
